@@ -14,6 +14,7 @@
 		539D1145219C985D0010821D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539D1143219C985D0010821D /* LaunchScreen.storyboard */; };
 		539D1150219C985E0010821D /* TheRegistrationPageMVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D114F219C985E0010821D /* TheRegistrationPageMVPTests.swift */; };
 		539D115B219C985E0010821D /* TheRegistrationPageMVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D115A219C985E0010821D /* TheRegistrationPageMVPUITests.swift */; };
+		539D116A219C9ED70010821D /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D1169219C9ED70010821D /* RegistrationPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		539D1156219C985E0010821D /* TheRegistrationPageMVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheRegistrationPageMVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		539D115A219C985E0010821D /* TheRegistrationPageMVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRegistrationPageMVPUITests.swift; sourceTree = "<group>"; };
 		539D115C219C985E0010821D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539D1169219C9ED70010821D /* RegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		539D1139219C985C0010821D /* TheRegistrationPageMVP */ = {
 			isa = PBXGroup;
 			children = (
+				539D1168219C9B6B0010821D /* Presenter */,
 				539D113A219C985C0010821D /* AppDelegate.swift */,
 				539D113C219C985C0010821D /* ViewController.swift */,
 				539D113E219C985C0010821D /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				539D115C219C985E0010821D /* Info.plist */,
 			);
 			path = TheRegistrationPageMVPUITests;
+			sourceTree = "<group>";
+		};
+		539D1168219C9B6B0010821D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				539D1169219C9ED70010821D /* RegistrationPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539D116A219C9ED70010821D /* RegistrationPresenter.swift in Sources */,
 				539D113D219C985C0010821D /* ViewController.swift in Sources */,
 				539D113B219C985C0010821D /* AppDelegate.swift in Sources */,
 			);
